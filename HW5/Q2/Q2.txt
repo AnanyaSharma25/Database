@@ -1,0 +1,5 @@
+Top 3 companies with highest average profit ( descending order) 
+
+1. Citigroup
+2. Bank of America Corp.
+3. Microsoft
