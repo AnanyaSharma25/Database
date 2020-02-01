@@ -1,0 +1,16 @@
+<html>
+<body>
+
+<script>
+var R = 8, r = 1, a = 4;
+var x, y;
+for (var t = 0.0; t < Math.PI * 16; t += 0.02) {
+    x = (R + r) * Math.cos((r / R) * t) - a * Math.cos((1 + r / R) * t);
+    x = 34.0214 + 0.001*x;
+    y = (R + r) * Math.sin((r / R) * t) - a * Math.sin((1 + r / R) * t);
+    y = -118.2890 + 0.001*y;
+	document.write(y+","+x+",0<br>");
+}
+</script>
+</body>
+</html>

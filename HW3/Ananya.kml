@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="z2">
+    <LineStyle>
+      <width>4</width>
+    </LineStyle>
+</Style>
+<Style id="polyStyle">
+    <PolyStyle>  
+    <color>#a00000ff</color>
+    <outline>0</outline>
+    </PolyStyle>
+  <LineStyle>
+  	<width>20</width>
+  </LineStyle>
+</Style>
+
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>-118.2826,34.0296 -118.2816,34.0293</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>-118.2818,34.0219 -118.2816,34.0293</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>-118.2828,34.0218 -118.2816,34.0293</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<styleUrl>#z2</styleUrl>
+<LineString>
+            <coordinates>-118.2846,34.0222 -118.2816,34.0293</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark><name> Leavey Library </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2828,34.0218 </coordinates></Point>
+</Placemark>
+<Placemark><name> Pacific Apartments </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2816,34.0293 </coordinates></Point>
+</Placemark>
+<Placemark><name> Seeley G Mudd </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2890,34.0214 </coordinates></Point>
+</Placemark>
+<Placemark><name> Taper Hall </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2846,34.0222 </coordinates></Point>
+</Placemark>
+<Placemark><name> Ronald Tutor Hall </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2899,34.0201 </coordinates></Point>
+</Placemark>
+<Placemark><name> OIS </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2818,34.0219 </coordinates></Point>
+</Placemark>
+<Placemark><name> Annenberg School </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2861,34.0221 </coordinates></Point>
+</Placemark>
+<Placemark><name> EEB </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2901,34.0197 </coordinates></Point>
+</Placemark>
+<Placemark><name> Starbucks </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2825,34.0212 </coordinates></Point>
+</Placemark>
+<Placemark><name> Sierra Apartments </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2826,34.0296</coordinates></Point>
+</Placemark>
+<Placemark><name> School of Cinematic Arts </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2871,34.0234 </coordinates></Point>
+</Placemark>
+<Placemark><name> Engemann </name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.2889,34.0253</coordinates></Point>
+</Placemark>
+
+<Placemark>
+<styleUrl>#polyStyle</styleUrl>
+<Polygon>
+	<outerBoundaryIs>
+		<LinearRing>
+			<coordinates>
+				-118.2901,34.0197,0
+				-118.2889,34.0253,0
+				-118.2826,34.0296,0
+				-118.2816,34.0293,0
+				-118.2818,34.0219,0
+				-118.2825,34.0212,0
+				-118.2901,34.0197,0
+				
+			</coordinates>
+		</LinearRing>
+	</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Document></kml>
+
+
+
+
+
