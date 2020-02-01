@@ -1,0 +1,12 @@
+
+
+ Sum refers to the addition of a company's Profits over all 'n' years that it has been active.
+Average refers to the the sum of the profits of the companies divided by the 'n' years it has been active. 
+
+So essentially, sum tells us the total profit obtained over all the years.
+
+Average tells us the profit that would have been for the company per year i.e. what is the benchmark value of profits for the company. Tells us the stability of a company.
+
+Hence, although a company's sum may be the highest but it doesn't mean its profits over all n years were almost the same, thus not giving it a high average.
+
+That is why the top three companies in the 'sum' chart are different from the top three in 'average'. 
